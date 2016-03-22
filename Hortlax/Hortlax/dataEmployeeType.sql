@@ -2,13 +2,13 @@
 GO
 
 INSERT INTO [dbo].[EmployeeType]
-           ([EmployeeTypeID]
-           ,[EmployeeTypeTitle]
+           (
+           [EmployeeTypeTitle]
            ,[EmployeeTypeDescription]
            ,[StandardSalary])
      VALUES
-	 ( 1, 'Chef', 'Personalledning för den administrativa personalen', 34000),
-	 ( 2, 'Mekaniker','Utföra däckbyten', 21000)
+	 ( 'Chef', 'Personalledning för den administrativa personalen', 34000),
+	 ( 'Mekaniker','Utföra däckbyten', 21000)
            --(<EmployeeTypeID, int,>
            --,<EmployeeTypeTitle, nvarchar(50),>
            --,<EmployeeTypeDescription, nvarchar(max),>
